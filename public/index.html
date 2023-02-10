@@ -6,13 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Web site created using create-snowpack-app" />
     <link rel="stylesheet" type="text/css" href="/index.css" />
-    <title>Snowpack App</title>
+    <title>Todo App</title>
+    <link rel="stylesheet" href="./index.css">
   </head>
   <body>
-    <img id="img" src="/logo.svg" />
-    <canvas id="canvas"></canvas>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <script type="module" src="/dist/index.js"></script>
+    <h1>To do App</h1>
+    <div class="container">
+      <input type="text" id="task-title">
+      <button class="btn" id="add-btn">Add</button>
+      <ul id="lists">
+         
+      </ul>
+     </div>
+   
+    <script  src="/dist/index.js" type="module"></script>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
